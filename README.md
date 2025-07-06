@@ -1,2 +1,2 @@
-# ecsc25
-ecsc25 some solutions
+# European Cybersecurity Challenge 2025
+W tym repo jest kilka solvów które udało mi się zrobić

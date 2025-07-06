@@ -1,3 +1,5 @@
+#TO KOD PODANY W ZADANIU
+
 import os
 from Crypto.Cipher import AES
 

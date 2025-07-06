@@ -1,2 +1,0 @@
-x[(f(),1)]
-ecsc25{thats_some_weird_variable_name}

